@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark text-white">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            &nbsp;
+            <button class="btn btn-primary" routerLink="clientes" routerLinkActive="active">
+                Lista Clientes
+            </button>
+            &nbsp;
+        </li>
+        <li class="nav-item">
+            <button routerLink="registrar-cliente" routerLinkActive="active" class="btn btn-success">
+                Añadir cliente
+            </button>
+            &nbsp;
+        </li>
+        <li class="nav-item">
+            <button routerLink="Inicio" routerLink="active" class="btn btn-warning">
+                Inicio
+            </button>
+        </li>
+    </ul>
+</nav>
+
+<h1 class="text-center">{{title}}</h1>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
